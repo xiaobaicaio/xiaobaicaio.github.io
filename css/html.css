@@ -1,0 +1,63 @@
+#app{
+  height: 100vh;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#hintModelBox{
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  line-height: 4vh;
+  background: aliceblue;
+}
+#hintContext{
+  font-size: 14px;
+  color: coral;
+}
+#hintBottom{
+  margin-top: 10%;
+  margin-left: 75%;
+}
+#hintBottomButton, #promptModelButton{
+  padding: 0.5vh;
+  background-color: aliceblue;
+  cursor: pointer;
+  border: 0.3vh solid cornflowerblue;
+  border-radius: 1vh;
+}
+#hintBottomButton:hover{
+  background-color: cornflowerblue;
+}
+
+/* 游戏盒子 */
+#gameBox{
+  width: 30%;
+  height: 100%;
+  background: thistle;
+  position: absolute;
+}
+#gameSpan{
+  width: 20%;
+  height: 10%;
+  background: turquoise;
+  cursor: pointer;
+}
+#promptModel{
+  position: absolute;
+  background: #fff;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 5vh;
+  border: 0.3vh solid #ccc;
+}
