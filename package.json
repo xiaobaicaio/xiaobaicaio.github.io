@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "cabbages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xiaobaicaio.github.io/xiaobaicaio.github.io",
+  "homepage": "https://xiaobaicaio.github.io/cabbages",
   "dependencies": {
     "@remixicon/react": "^4.7.0",
     "@testing-library/dom": "^10.4.1",

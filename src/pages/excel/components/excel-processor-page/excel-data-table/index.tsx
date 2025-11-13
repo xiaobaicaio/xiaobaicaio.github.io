@@ -9,6 +9,7 @@ export default function ExcelDataTable({
   data: any[][];
   mergedCells: { [key: string]: { rowSpan: number, colSpan: number } };
 }) {
+  
   const tableData = useMemo(() => {
     return data.map((row, rowIndex) => {
       return row.map((cell, colIndex) => {
